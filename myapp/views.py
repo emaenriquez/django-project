@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def hola(request):
     return HttpResponse("Hello Word")
 
-def acecaDe(request):
+def AcercaDe(request):
     return HttpResponse('Bienvenido a about')
